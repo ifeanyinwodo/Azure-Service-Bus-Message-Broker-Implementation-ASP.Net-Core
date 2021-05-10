@@ -1,0 +1,12 @@
+D:\microservice\Azure-Service-Bus-Message-Broker-Implementation-ASP.Net-Core\ItemModel-Nugget\ItemModel-Nugget\bin\Debug\net5.0\ItemModel-Nugget.deps.json
+D:\microservice\Azure-Service-Bus-Message-Broker-Implementation-ASP.Net-Core\ItemModel-Nugget\ItemModel-Nugget\bin\Debug\net5.0\ItemModel-Nugget.dll
+D:\microservice\Azure-Service-Bus-Message-Broker-Implementation-ASP.Net-Core\ItemModel-Nugget\ItemModel-Nugget\bin\Debug\net5.0\ref\ItemModel-Nugget.dll
+D:\microservice\Azure-Service-Bus-Message-Broker-Implementation-ASP.Net-Core\ItemModel-Nugget\ItemModel-Nugget\bin\Debug\net5.0\ItemModel-Nugget.pdb
+D:\microservice\Azure-Service-Bus-Message-Broker-Implementation-ASP.Net-Core\ItemModel-Nugget\ItemModel-Nugget\obj\Debug\net5.0\ItemModel-Nugget.csprojAssemblyReference.cache
+D:\microservice\Azure-Service-Bus-Message-Broker-Implementation-ASP.Net-Core\ItemModel-Nugget\ItemModel-Nugget\obj\Debug\net5.0\ItemModel-Nugget.GeneratedMSBuildEditorConfig.editorconfig
+D:\microservice\Azure-Service-Bus-Message-Broker-Implementation-ASP.Net-Core\ItemModel-Nugget\ItemModel-Nugget\obj\Debug\net5.0\ItemModel-Nugget.AssemblyInfoInputs.cache
+D:\microservice\Azure-Service-Bus-Message-Broker-Implementation-ASP.Net-Core\ItemModel-Nugget\ItemModel-Nugget\obj\Debug\net5.0\ItemModel-Nugget.AssemblyInfo.cs
+D:\microservice\Azure-Service-Bus-Message-Broker-Implementation-ASP.Net-Core\ItemModel-Nugget\ItemModel-Nugget\obj\Debug\net5.0\ItemModel-Nugget.csproj.CoreCompileInputs.cache
+D:\microservice\Azure-Service-Bus-Message-Broker-Implementation-ASP.Net-Core\ItemModel-Nugget\ItemModel-Nugget\obj\Debug\net5.0\ItemModel-Nugget.dll
+D:\microservice\Azure-Service-Bus-Message-Broker-Implementation-ASP.Net-Core\ItemModel-Nugget\ItemModel-Nugget\obj\Debug\net5.0\ref\ItemModel-Nugget.dll
+D:\microservice\Azure-Service-Bus-Message-Broker-Implementation-ASP.Net-Core\ItemModel-Nugget\ItemModel-Nugget\obj\Debug\net5.0\ItemModel-Nugget.pdb
