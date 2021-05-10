@@ -10,5 +10,6 @@
     <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.2.0-beta.1" />
     <PackageReference Include="ItemModel-Nugget" Version="1.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 </Project>

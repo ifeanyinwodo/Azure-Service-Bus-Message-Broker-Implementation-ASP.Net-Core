@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+SdCHBN6T85eykw5eecPifWGUJiFAAYZwAn+b+qewz8Jk2O98ta8SH9tEs1c0IAnTSHmL/AXYEngpWoG/QKZKQ==",
+  "dgSpecHash": "Qo9LI2FKXD23b1o4m97xoD2VUSLY2wrncMmm+vk5XXoivvP/T6zOiLJN1bNANr/NtPwxZ4TVCcyhawbt+2ctdg==",
   "success": true,
   "projectFilePath": "D:\\microservice\\Azure-Service-Bus-Message-Broker-Implementation-ASP.Net-Core\\ItemModel-Nugget\\ItemModel-Nugget\\ItemModel-Nugget.csproj",
   "expectedPackageFiles": [],
