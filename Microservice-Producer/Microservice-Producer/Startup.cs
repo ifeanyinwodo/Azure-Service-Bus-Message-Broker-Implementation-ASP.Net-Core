@@ -28,7 +28,8 @@ namespace Microservice_Producer
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IAzureBusService, AzureBusService>();
-
+            services.AddMetrics();
+            services.AddMetricsTrackingMiddleware();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -45,7 +46,7 @@ namespace Microservice_Producer
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Microservice_Producer v1"));
             }
-
+            app.UseMetricsAllMiddleware();
             app.UseHttpsRedirection();
 
             app.UseRouting();

@@ -1,3 +1,4 @@
+using App.Metrics;
 using Azure.Messaging.ServiceBus;
 using ItemModel_Nugget;
 using Microsoft.Extensions.Configuration;
@@ -9,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using Workerservice_Consumer.Metrics;
 
 namespace Workerservice_Consumer
 {
@@ -16,12 +18,14 @@ namespace Workerservice_Consumer
     {
         private readonly ILogger<Worker> _logger;
         private readonly IConfiguration _config;
-        public Worker(ILogger<Worker> logger, IConfiguration config)
+        private readonly IMetrics _metrics;
+        public Worker(ILogger<Worker> logger, IConfiguration config, IMetrics metrics)
         {
             _logger = logger;
             _config = config;
-            
-           
+            _metrics = metrics;
+
+
         }
 
         private async Task MessageHandler(ProcessMessageEventArgs args)
@@ -43,6 +47,7 @@ namespace Workerservice_Consumer
         {
             while (!stoppingToken.IsCancellationRequested)
             {
+                _metrics.Measure.Counter.Increment(MetricsRegistry._receivedMessage);
                 _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
                 await using (ServiceBusClient client = new ServiceBusClient(_config.GetConnectionString("AzureServiceBus")))
                 {

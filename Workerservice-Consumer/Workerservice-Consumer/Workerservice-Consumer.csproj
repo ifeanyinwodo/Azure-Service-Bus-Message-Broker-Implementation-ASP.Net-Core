@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Worker">
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="App.Metrics" Version="4.2.0" />
+    <PackageReference Include="App.Metrics.AspNetCore.All" Version="4.2.0" />
+    <PackageReference Include="App.Metrics.AspNetCore.Core" Version="4.2.0" />
+    <PackageReference Include="App.Metrics.AspNetCore.Endpoints" Version="4.2.0" />
+    <PackageReference Include="App.Metrics.Formatters.Prometheus" Version="4.2.0" />
     <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.2.0-beta.1" />
     <PackageReference Include="ItemModel-Nugget" Version="1.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />

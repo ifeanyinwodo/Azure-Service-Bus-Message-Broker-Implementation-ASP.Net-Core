@@ -1,5 +1,7 @@
-﻿using ItemModel_Nugget;
+﻿using App.Metrics;
+using ItemModel_Nugget;
 using Microservice_Producer.IOC;
+using Microservice_Producer.Metrics;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -14,17 +16,20 @@ namespace Microservice_Producer.Controllers
     public class OrderController : ControllerBase
     {
         private readonly IAzureBusService _azureBusService;
-        public OrderController(IAzureBusService azureBusService)
+        private readonly IMetrics _metrics;
+        public OrderController(IAzureBusService azureBusService, IMetrics metrics)
         {
             _azureBusService = azureBusService;
-
+            _metrics = metrics;
         }
 
         // POST api/<OrderController>
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Item item)
         {
+            _metrics.Measure.Counter.Increment(MetricsRegistry._sentMessage);
             await _azureBusService.SendMessageAsync(item);
+           
             return Ok();
 
 

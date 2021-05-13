@@ -47,6 +47,26 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "App.Metrics": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "App.Metrics.AspNetCore.All": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "App.Metrics.AspNetCore.Core": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "App.Metrics.AspNetCore.Endpoints": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "App.Metrics.Formatters.Prometheus": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "Azure.Messaging.ServiceBus": {
               "target": "Package",
               "version": "[7.2.0-beta.1, )"
