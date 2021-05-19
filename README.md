@@ -1,5 +1,5 @@
 # Azure-Service-Bus-Message-Broker-Implementation-ASP.Net-Core
-This Solution demonstrates the implementation:
+This Solution demonstrates the:
 1. Implementation of an Azure Service Bus  Message broker for an ASP.Net Core Solution.
 2. Implementation of an ASP.net Core WebAPI.
 3. Implementation of .net Core Worker Service.
