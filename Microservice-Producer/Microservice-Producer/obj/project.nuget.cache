@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fux8r0+CK9C5F+FXwunhcbtm7bXFBXE+JyKtxpHVjFLkcIKWZxj2Ok+u5IIA3+YnWwJxhAV7B2wdIKJO44tOzw==",
+  "dgSpecHash": "uApZFoPMxYk58x8BnfDc08GM6IKLttOEYz2ckd23K29N+RN6g1fZwpKfXBHMgc9anZQCeuLnSyMPWm4wVrSGjw==",
   "success": true,
   "projectFilePath": "D:\\microservice\\Azure-Service-Bus-Message-Broker-Implementation-ASP.Net-Core\\Microservice-Producer\\Microservice-Producer\\Microservice-Producer.csproj",
   "expectedPackageFiles": [
